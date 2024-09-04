@@ -6,7 +6,6 @@
 string text = "Hello Everyone!!!!!!!";
 Console.Writeline("text");
 //this is comment
-hiiiiiiiiiiiiiiiii 
-\\\ or this is  i don't know.
+
 
 ```
