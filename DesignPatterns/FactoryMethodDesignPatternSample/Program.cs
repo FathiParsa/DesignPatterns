@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("this will be factory method as soon as possible");
+            AnimalFactory dogFactory = new DogFactory();
+            IAnimal dog = dogFactory.CreateAnimal();
+            dog.Speak();
+
+            AnimalFactory catFactory = new CatFactory();
+            IAnimal cat = catFactory.CreateAnimal();
+            cat.Speak();
         }
     }
 }
