@@ -399,10 +399,12 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
+
+
 .dotnet/
-dotnet/
-C:\Users\Dell 5510/
 .C:\Users\Dell 5510/
+
+
 
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
