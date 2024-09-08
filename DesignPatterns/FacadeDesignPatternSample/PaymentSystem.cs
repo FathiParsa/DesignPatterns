@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace FacadeDesignPatternSample
 {
-    public class ProductCatalog
+    public class PaymentSystem
     {
-        public void GetProducts()
+        public void ProccessPayment()
         {
-            Console.WriteLine("Fetching Products from the catalog");
+            Console.WriteLine("Proccess Payment...");
         }
     }
 }

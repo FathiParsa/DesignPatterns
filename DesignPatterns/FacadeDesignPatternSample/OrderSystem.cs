@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace FacadeDesignPatternSample
 {
-    public class ProductCatalog
+    public class OrderSystem
     {
-        public void GetProducts()
+        public void PlaceOrder() 
         {
-            Console.WriteLine("Fetching Products from the catalog");
+            Console.WriteLine("Placing an order...");
         }
     }
 }
